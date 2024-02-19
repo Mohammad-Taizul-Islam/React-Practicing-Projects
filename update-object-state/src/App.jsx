@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Form from "./Form";
 import "./App.css";
+import Immer from "./Immer";
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -34,6 +35,7 @@ function App() {
     // </div>
     <>
       <Form />
+      <Immer />
     </>
   );
 }
